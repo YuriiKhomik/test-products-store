@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import { Home } from "pages/Home";
-import { Product } from "components/ProductListItem";
+import { Product } from "components/Product";
 import { Header, Logo } from "./App.styled";
 
 export const App = () => {

@@ -26,3 +26,27 @@ export const fetchProductById = createAsyncThunk(
     }
   }
 );
+
+export const addProduct = createAsyncThunk(
+  "products/addProduct",
+  async (product, thunkAPI) => {
+    try {
+      const response = await axios.post("/products", product);
+      return response.data;
+    } catch (error) {
+      return thunkAPI.rejectWithValue(error.message);
+    }
+  }
+);
+
+export const deleteProduct = createAsyncThunk(
+  "products/deleteProduct",
+  async (productId, thunkAPI) => {
+    try {
+      const response = await axios.delete(`/products/${productId}`);
+      return response.data;
+    } catch (error) {
+      return thunkAPI.rejectWithValue(error.message);
+    }
+  }
+);

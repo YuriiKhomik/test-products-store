@@ -9,27 +9,7 @@
         "width": 200,
         "height": 200
       },
-      "weight": "200g",
-      "comments": [
-        {
-          "id": 1,
-          "productId": 1,
-          "description": "some text here",
-          "date": "14:00 22.08.2021"
-        },
-        {
-          "id": 2,
-          "productId": 1,
-          "description": "some text here",
-          "date": "14:00 22.08.2021"
-        },
-        {
-          "id": 3,
-          "productId": 1,
-          "description": "some text here",
-          "date": "14:00 22.08.2021"
-        }
-      ]
+      "weight": "200g"
     },
     {
       "id": 2,
@@ -40,27 +20,7 @@
         "width": 200,
         "height": 200
       },
-      "weight": "200g",
-      "comments": [
-        {
-          "id": 1,
-          "productId": 2,
-          "description": "some text here",
-          "date": "14:00 22.08.2021"
-        },
-        {
-          "id": 2,
-          "productId": 2,
-          "description": "some text here",
-          "date": "14:00 22.08.2021"
-        },
-        {
-          "id": 3,
-          "productId": 2,
-          "description": "some text here",
-          "date": "14:00 22.08.2021"
-        }
-      ]
+      "weight": "200g"
     },
     {
       "id": 3,
@@ -71,27 +31,7 @@
         "width": 200,
         "height": 200
       },
-      "weight": "200g",
-      "comments": [
-        {
-          "id": 1,
-          "productId": 3,
-          "description": "some text here",
-          "date": "14:00 22.08.2021"
-        },
-        {
-          "id": 2,
-          "productId": 3,
-          "description": "some text here",
-          "date": "14:00 22.08.2021"
-        },
-        {
-          "id": 3,
-          "productId": 3,
-          "description": "some text here",
-          "date": "14:00 22.08.2021"
-        }
-      ]
+      "weight": "200g"
     },
     {
       "id": 4,
@@ -102,27 +42,7 @@
         "width": 200,
         "height": 200
       },
-      "weight": "200g",
-      "comments": [
-        {
-          "id": 1,
-          "productId": 4,
-          "description": "some text here",
-          "date": "14:00 22.08.2021"
-        },
-        {
-          "id": 2,
-          "productId": 4,
-          "description": "some text here",
-          "date": "14:00 22.08.2021"
-        },
-        {
-          "id": 3,
-          "productId": 4,
-          "description": "some text here",
-          "date": "14:00 22.08.2021"
-        }
-      ]
+      "weight": "200g"
     }
   ]
 }

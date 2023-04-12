@@ -1,15 +1,8 @@
-import { Formik, Form, Field, ErrorMessage } from "formik";
-import * as yup from "yup";
+import { useDispatch } from "react-redux";
+import { addProduct } from "redux/products/productsOperations";
+import { Formik, Form, ErrorMessage } from "formik";
 import { Box } from "components/Box";
 import { Input } from "./AddProductForm.styled";
-
-// const schema = yup.object().shape({
-//   name: yup.string().required("please, type product name"),
-//   count: yup.number().required(),
-//   width: yup.number().required(),
-//   height: yup.number().required(),
-//   weight: yup.number().required(),
-// });
 
 const initialValues = {
   name: "",
@@ -20,8 +13,23 @@ const initialValues = {
 };
 
 export const AddProductForm = () => {
+  const dispatch = useDispatch();
+
   const handleSubmit = (values, { resetForm }) => {
-    console.log(values);
+    const { name, count, width, height, weight } = values;
+    const newProduct = {
+      imageUrl: "some url here",
+      name,
+      count,
+      size: {
+        width,
+        height,
+      },
+      weight: `${weight}g`,
+    };
+
+    dispatch(addProduct(newProduct));
+
     resetForm();
   };
   return (

@@ -10,7 +10,26 @@
         "height": 200
       },
       "weight": "200g",
-      "comments": ["CommentModel", "CommentModel"]
+      "comments": [
+        {
+          "id": 1,
+          "productId": 1,
+          "description": "some text here",
+          "date": "14:00 22.08.2021"
+        },
+        {
+          "id": 2,
+          "productId": 1,
+          "description": "some text here",
+          "date": "14:00 22.08.2021"
+        },
+        {
+          "id": 3,
+          "productId": 1,
+          "description": "some text here",
+          "date": "14:00 22.08.2021"
+        }
+      ]
     },
     {
       "id": 2,
@@ -22,7 +41,26 @@
         "height": 200
       },
       "weight": "200g",
-      "comments": ["CommentModel", "CommentModel"]
+      "comments": [
+        {
+          "id": 1,
+          "productId": 2,
+          "description": "some text here",
+          "date": "14:00 22.08.2021"
+        },
+        {
+          "id": 2,
+          "productId": 2,
+          "description": "some text here",
+          "date": "14:00 22.08.2021"
+        },
+        {
+          "id": 3,
+          "productId": 2,
+          "description": "some text here",
+          "date": "14:00 22.08.2021"
+        }
+      ]
     },
     {
       "id": 3,
@@ -34,7 +72,26 @@
         "height": 200
       },
       "weight": "200g",
-      "comments": ["CommentModel", "CommentModel"]
+      "comments": [
+        {
+          "id": 1,
+          "productId": 3,
+          "description": "some text here",
+          "date": "14:00 22.08.2021"
+        },
+        {
+          "id": 2,
+          "productId": 3,
+          "description": "some text here",
+          "date": "14:00 22.08.2021"
+        },
+        {
+          "id": 3,
+          "productId": 3,
+          "description": "some text here",
+          "date": "14:00 22.08.2021"
+        }
+      ]
     },
     {
       "id": 4,
@@ -46,7 +103,26 @@
         "height": 200
       },
       "weight": "200g",
-      "comments": ["CommentModel", "CommentModel"]
+      "comments": [
+        {
+          "id": 1,
+          "productId": 4,
+          "description": "some text here",
+          "date": "14:00 22.08.2021"
+        },
+        {
+          "id": 2,
+          "productId": 4,
+          "description": "some text here",
+          "date": "14:00 22.08.2021"
+        },
+        {
+          "id": 3,
+          "productId": 4,
+          "description": "some text here",
+          "date": "14:00 22.08.2021"
+        }
+      ]
     }
   ]
 }

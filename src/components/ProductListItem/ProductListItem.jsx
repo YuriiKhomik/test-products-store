@@ -3,7 +3,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { selectProduct } from "redux/products/productsSelectors";
 import { fetchProductById } from "redux/products/productsOperations";
 import { useEffect } from "react";
-import { nanoid } from "@reduxjs/toolkit";
 
 export const Product = () => {
   const { productId } = useParams();

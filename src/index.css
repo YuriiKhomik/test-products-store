@@ -42,8 +42,10 @@ address {
 
 button {
   font-family: inherit;
-  padding: 0;
+  padding: 2px 4px;
   margin: 0;
+  width: fit-content;
+  cursor: pointer;
 }
 
 img {

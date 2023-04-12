@@ -16,7 +16,7 @@ export const ProductsList = () => {
   }, [dispatch]);
 
   return (
-    <>
+    <div style={{ marginTop: "20px" }}>
       {error && <h1>ooops, smth went wrong :(</h1>}
       <List>
         {products.map((product) => (
@@ -31,6 +31,6 @@ export const ProductsList = () => {
           </Product>
         ))}
       </List>
-    </>
+    </div>
   );
 };

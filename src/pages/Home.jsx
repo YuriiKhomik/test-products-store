@@ -25,6 +25,9 @@ export const Home = () => {
             quibusdam sint ad debitis mollitia. Expedita hic iste, repellendus
             est officiis adipisci sequi enim?
           </p>
+          <button type="button" onClick={toggleModal}>
+            Close
+          </button>
         </Modal>
       )}
     </div>

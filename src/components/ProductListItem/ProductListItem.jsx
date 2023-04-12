@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { selectProduct } from "redux/products/productsSelectors";
 import { fetchProductById } from "redux/products/productsOperations";
 import { useEffect } from "react";
+import { nanoid } from "@reduxjs/toolkit";
 
 export const Product = () => {
   const { productId } = useParams();
@@ -13,13 +14,21 @@ export const Product = () => {
     dispatch(fetchProductById(productId));
   }, [dispatch, productId]);
 
-  const { name, count, weight } = product;
+  const {
+    name,
+    count,
+    weight,
+    // size: { width, height },
+    // comments,
+  } = product;
 
   return (
     <>
-      <p>Product name: {name}</p>
-      <p>Count: {count}</p>
-      <p>Weight: {weight}</p>
+      <ul>
+        <li>name: {name}</li>
+        <li>count: {count}</li>
+        <li>weight: {weight}</li>
+      </ul>
     </>
   );
 };

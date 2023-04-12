@@ -13,7 +13,7 @@ export const Home = () => {
   };
 
   return (
-    <Box p="20px">
+    <Box p="20px" position="relative">
       <StyledButton type="button" onClick={toggleModal}>
         Add product
       </StyledButton>
@@ -21,7 +21,12 @@ export const Home = () => {
       {showModal && (
         <Modal onClose={toggleModal}>
           <AddProductForm />
-          <Box display="flex" justifyContent="end">
+          <Box
+            display="inlineBlock"
+            position="absolute"
+            bottom="12px"
+            right="12px"
+          >
             <button type="button" onClick={toggleModal}>
               Cancel
             </button>

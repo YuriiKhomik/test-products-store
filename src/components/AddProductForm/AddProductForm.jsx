@@ -41,7 +41,7 @@ export const AddProductForm = () => {
           <label htmlFor="count">
             <Input
               type="number"
-              min="0.1"
+              min="1"
               name="count"
               placeholder="count"
               pattern="[1-9]+"
@@ -53,7 +53,7 @@ export const AddProductForm = () => {
           <label htmlFor="width">
             <Input
               type="number"
-              min="0.1"
+              min="1"
               name="width"
               placeholder="width in cm"
               pattern="[0-9]+"
@@ -65,7 +65,7 @@ export const AddProductForm = () => {
           <label htmlFor="height">
             <Input
               type="number"
-              min="0.1"
+              min="1"
               name="height"
               placeholder="height in cm"
               pattern="[0-9]+"
@@ -77,7 +77,7 @@ export const AddProductForm = () => {
           <label htmlFor="weight">
             <Input
               type="number"
-              min="0.1"
+              min="1"
               name="weight"
               placeholder="weight in gramms"
               pattern="[0-9]+"
@@ -86,7 +86,14 @@ export const AddProductForm = () => {
             />
             <ErrorMessage name="weight" />
           </label>
-          <button type="submit">Add product</button>
+          <Box
+            display="inlineBlock"
+            position="absolute"
+            bottom="12px"
+            left="12px"
+          >
+            <button type="submit">Add product</button>
+          </Box>
         </Box>
       </Form>
     </Formik>

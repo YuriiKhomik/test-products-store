@@ -4,7 +4,7 @@ import { Formik, Form, Field, ErrorMessage } from "formik";
 export const Input = styled(Field)`
   padding: 6px 12px;
   margin: 5px;
-  max-width: 200px;
+  width: 400px;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;

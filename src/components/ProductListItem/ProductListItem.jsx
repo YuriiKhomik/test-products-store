@@ -22,12 +22,12 @@ export const Product = () => {
   } = product;
 
   return (
-    <>
+    <div style={{ padding: "20px" }}>
       <ul>
         <li>name: {name}</li>
         <li>count: {count}</li>
         <li>weight: {weight}</li>
       </ul>
-    </>
+    </div>
   );
 };
